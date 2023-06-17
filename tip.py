@@ -5,4 +5,4 @@ split_count = int(input("How many people to split the bill? "))
 
 amount = (percentage / 100) * bill + bill
 each_share = amount / split_count
-print(round(each_share, 2))
+print(f"Each person should pay: {each_share}")
